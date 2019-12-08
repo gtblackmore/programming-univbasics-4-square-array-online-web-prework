@@ -1,8 +1,8 @@
 def square_array(array)
-  numbers = [1,2,3]
-  while numbers.length <=3 do
-    numbers
- 
-  new_number = [9,10,16,25]
-  
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
 end
+
+arr = [1, 2, 3, 4, 5]
+square_array(arr)
